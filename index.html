@@ -5,9 +5,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
+    <div id="container">
+    <header class="header">
+        <section class="row top">
+            <h2 class="top__logo">Edukacja</h2>
+            
+            <div class="top__contactBlock">
+                <h3 class="top__contactBlock__name">Lokalizacja:</h3>
+                <p class="top__contactBlock__info">ul. Przykladowa 6/66 34-748 Krakow</p>
+            </div>
+
+            <div class="top__contactBlock">
+                <h3 class="top__contactBlock__name">Kontakt:</h3>
+                <p class="top__contactBlock__info">tel: 12 666 00 00</p>
+                <p class="top__contactBlock__info">fax: 12 345 43 43</p>
+            </div>
+
+            <a class="top__button" href="#" role="button">Napisz do nas ></a>
+
+
+          
+        </section>
+
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__element">Start</li>
+                <li class="menu__element">Badania</li>
+                <li class="menu__element">Dorobek naukowy</li>
+                <li class="menu__element">Konferencje</li>
+                <li class="menu__element">Kontakt</li>
+            </ul>
+            <a class="menu__button" href="#" role="button">Search</a>
+        </nav>
+    </header>
+
+
+    <section class="slider">
     
+ <div id="slidingGallery" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+        <li data-target="#slidingGallery" data-slide-to="0" class="active"></li>
+        <li data-target="#slidingGallery" data-slide-to="1"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/book-4126481_1920.jpg" title="slider1">
+          <div class="carousel-caption d-none d-md-block">
+                <h2>Lorem ipsum dolor sit amet, Consecteur elit</h2>
+                <p>23 lipca 2019</p>
+                <a class="slider__button" href="" role="button">Czytaj wiecej</a>
+              </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/business-2884023_1920.jpg" title="slider2">
+        </div>
+        
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#slidingGallery" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slidingGallery" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    </section>
+
+<section class="boxes">
+
+    <div class="boxes__box">
+        <img src="" title="box_1" />
+        <h3>Lorem ipsum dolor sit</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p>
+        <a class="box__button" href="#">Czytaj wiecej ></a>
+    </div>
+
+
+    <div class="boxes__box">
+        <img src="" title="box_1" />
+        <h3>Lorem ipsum dolor sit</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p>
+        <a class="box__button" href="#">Czytaj wiecej ></a>
+    </div>
+
+
+    <div class="boxes__box">
+        <img src="" title="box_1" />
+        <h3>Lorem ipsum dolor sit</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p>
+        <a class="box__button" href="#">Czytaj wiecej ></a>
+    </div>
+</section>
+
+
+<section class="features">
+
+    <img class="features__img" src="img/features.png" title="features" />
+    <article class="features__content">
+        <h2 class="features__title">Quis autem vel eum iure</h2>
+        <p class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <ul class="features__list">
+            <li class="features__element">Excepteur sint</li>
+            <li class="features__element">Excepteur sint occaecat</li>
+            <li class="features__element">Excepteur sint</li>
+            <li class="features__element">Excepteur sint</li>
+            <li class="features__element">Excepteur sint occaecat</li>
+            <li class="features__element">Excepteur sint</li>
+        </ul>
+    </article>
+</section>
+
+<footer class="footer">
+    <div class="footer__boxes">
+        
+        <div class="footer__box">
+            <h4 class="footer__box__title">Lorem ipsum dolor sit</h4>
+            <ul class="footer__list">
+                <li class="footer__element">Omnis iste natus</li>
+                <li class="footer__element">Error sit voluptatem</li>
+                <li class="footer__element">Accusantium doloremque</li>
+                <li class="footer__element">laudantium</li>
+                <li class="footer__element">Totam rem</li>
+            </ul>
+        </div>
+
+        <div class="footer__box">
+            <h4 class="footer__box__title">Lorem ipsum dolor sit</h4>
+            <ul class="footer__list">
+                <li class="footer__element">Omnis iste natus</li>
+                <li class="footer__element">Error sit voluptatem</li>
+                <li class="footer__element">Accusantium doloremque</li>
+                <li class="footer__element">laudantium</li>
+                <li class="footer__element">Totam rem</li>
+            </ul>
+        </div>
+        
+        <div class="footer__box">
+          socials
+        </div>
+        
+    </div>
+
+</div>
+</footer>
 </body>
 </html>
