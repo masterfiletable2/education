@@ -447,15 +447,14 @@ text-align: center;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-
-
-          
+text-align: center;
 }
 
 
 .footer__box__title {
     font-size:1.375rem;
-    margin-bottom:2rem;
+  margin-bottom:0.5rem;
+  margin-top:2rem;
 }
 
 .footer__link {
@@ -574,7 +573,8 @@ animation-iteration-count: infinite;
             flex-direction: row;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-}
+    text-align: left;
+    }
 }
 
 
@@ -906,9 +906,13 @@ text-transform: uppercase;
         -ms-flex-direction: row;
             flex-direction: row;
     padding-bottom: 5rem;
+    text-align: left;
 
 }
-
+.footer__box__title {
+    margin-top:auto;
+    margin-bottom:2rem;
+}
 .footer__scroll {
   width:1144px;
     display: -webkit-box;
